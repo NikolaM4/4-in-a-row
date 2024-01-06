@@ -109,7 +109,6 @@ int main() {
                     return 0;
                 }
             }
-// OVDJE TREBA SREDITI
             for (int i = 0; i < n - 3; i++) {
                 sum3 = 0;
                 for (int j = 0; j < n; j++) {

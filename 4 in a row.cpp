@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     int n;
     do{
-        cout << "Vnesite stevilo vrstica: ";
+        cout << "Enter number of rows: ";
         cin >> n;
     }
     while(n < 5 || n > 20);
@@ -23,14 +23,14 @@ int main() {
     while (counter > 0){
         x = 0;
         y = 0;
-        cout << "Vnesite koordinate\n";
+        cout << "Enter coordinates\n";
         cout << "x: ";
         cin >> x;
         cout << "y: ";
         cin >> y;
         while (arr[x][y] != 0 || x < 0 || y < 0 || (arr[x+1][y] == 0 && x < n-1) || x > n - 1 || y > n - 1 )
         {
-            cout << "Napaka. Vnesite nove koordinate\n";
+            cout << "Error. Enter new coordinates\n";
             cout << "x: ";
             cin >> x;
             cout << "y: ";
@@ -58,7 +58,7 @@ int main() {
                     {
                         sum1++;
                         if (sum1 == 4){
-                            cout << "Igralec 1 je pobednik";
+                            cout << "Player 1 win!";
                             return 0;
                         }
                     }
@@ -75,7 +75,7 @@ int main() {
                     if(arr[j][i] == 1){
                         sum2++;
                         if(sum2 == 4){
-                            cout << "Igralec 1 je pobednik";
+                            cout << "Player 1 win!";
                             return 0;
                         }
                     }
@@ -94,7 +94,7 @@ int main() {
                     }
                 }
                 if (sum3 == 4) {
-                    cout << "Igralec 1 je pobednik";
+                    cout << "Player 1 win!";
                     return 0;
                 }
             }
@@ -107,7 +107,7 @@ int main() {
                     }
                 }
                 if (sum3 == 4) {
-                    cout << "Igralec 1 je pobednik";
+                    cout << "Player 1 win!";
                     return 0;
                 }
             }
@@ -120,7 +120,7 @@ int main() {
                     }
                 }
                 if (sum3 == 4) {
-                    cout << "Igralec 1 je pobednik";
+                    cout << "Player 1 win!";
                     return 0;
                 }
             }
@@ -133,7 +133,7 @@ int main() {
                     }
                 }
                 if (sum3 == 4) {
-                    cout << "Igralec 1 je pobednik";
+                    cout << "Player 1 win!";
                     return 0;
                 }
             }
@@ -149,7 +149,7 @@ int main() {
                     {
                         sum1++;
                         if (sum1 == 4){
-                            cout << "Igralec 2 je pobednik";
+                            cout << "Player 2 win!";
                             return 0;
                         }
                     }
@@ -166,7 +166,7 @@ int main() {
                     if(arr[j][i] == 2){
                         sum2++;
                         if(sum2 == 4){
-                            cout << "Igralec 2 je pobednik";
+                            cout << "Player 2 win!";
                             return 0;
                         }
                     }
@@ -185,7 +185,7 @@ int main() {
                     }
                 }
                 if (sum3 == 4) {
-                    cout << "Igralec 2 je pobednik";
+                    cout << "Player 2 win!";
                     return 0;
                 }
             }
@@ -198,7 +198,7 @@ int main() {
                     }
                 }
                 if (sum3 == 4) {
-                    cout << "Igralec 2 je pobednik";
+                    cout << "Player 2 win!";
                     return 0;
                 }
             }
@@ -210,7 +210,7 @@ int main() {
                     sum3++;
                     if(sum3 == 4)
                     {
-                        cout << "Igralec 2 je pobednik";
+                        cout << "Player 2 win!";
                         return 0;
                     }
                 }
@@ -220,6 +220,6 @@ int main() {
         c++;
         counter--;
     }
-    cout << "Nima pobednika";
+    cout << "There is no winner!";
     return 0;
 }

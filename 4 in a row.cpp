@@ -67,6 +67,7 @@ int main() {
                     }
                 }
             }
+            
             for(int i = 0; i < n; i++){
                 sum2=0;
                 for (int j = 0; j < n; j++)
@@ -83,6 +84,7 @@ int main() {
                     }
                 }
             }
+            
             for(int i = 0; i < n-3; i++)
             {
                 sum3 = 0;
@@ -109,6 +111,7 @@ int main() {
                     return 0;
                 }
             }
+            
             for (int i = 0; i < n - 3; i++) {
                 sum3 = 0;
                 for (int j = 0; j < n; j++) {
@@ -121,8 +124,7 @@ int main() {
                     return 0;
                 }
             }
-
-            // Check diagonal from top right to bottom left
+            
             for (int i = n - 1; i >= 3; i--) {
                 sum3 = 0;
                 for (int j = 0; j < n; j++) {
@@ -136,6 +138,7 @@ int main() {
                 }
             }
         }
+        
         if(c % 2 == 1)
         {
             for(int i = 0; i < n; i++){
@@ -155,6 +158,7 @@ int main() {
                     }
                 }
             }
+            
             for(int i = 0; i < n; i++){
                 sum2=0;
                 for (int j = 0; j < n; j++)
@@ -171,6 +175,7 @@ int main() {
                     }
                 }
             }
+            
             for(int i = 0; i < n-3; i++)
             {
                 sum3 = 0;
@@ -197,6 +202,7 @@ int main() {
                     return 0;
                 }
             }
+            
             for(int i = n-1; i >= 0; i--)
             {
                 if(arr[i][i] == 2){

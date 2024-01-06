@@ -4,7 +4,7 @@
 This code was created for university exercise for subject Programming 1.
 I wrote code on my own without looking at any other code on internet.
 It isn't most optimal and I didn't do refactoring, but I find this exercise very interesting so just wanted to share my solution.
-Some things were translated from Slovenian to English.
+I will make this code better if I successfully finish 1st semester 😊.
 
 ## How to use
 

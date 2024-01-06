@@ -6,7 +6,7 @@ I wrote code on my own without looking at any other code on internet.
 It isn't most optimal and I didn't do refactoring, but I find this exercise very interesting so just wanted to share my solution.
 Some things were translated from Slovenian to English.
 
-##How to use
+## How to use
 
 This is console app, so you can create new C++ project on your machine and copy code and run it.
 1st question asks you how many rows do you want to play game with. You can enter between 5 and 20 included.
